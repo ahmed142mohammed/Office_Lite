@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Kumbh Sans Reg';
+  src: url(../fonts/KumbhSans-Regular.ttf);
+}
+@font-face {
+  font-family: 'Kumbh Sans Bold';
+  src: url(../fonts/KumbhSans-Bold.ttf);
+}
+.img_logo {
+  margin: 20px;
+}
+.text-img {
+  display: flex;
+  justify-content: space-around;
+}
+.text-simple {
+  font-size: 56px;
+  font-family: 'KumbhSansBold';
+  color: #333950;
+}
+.text-saygoogbye {
+  font-size: 18px;
+  font-family: 'KumbhSansRegular';
+  color: #747b95;
+}
+.get-started {
+  font-size: 16px;
+  font-family: KumbhSansBold;
+  color: #ffffff;
+  background-color: #5175ff;
+  border-radius: 28px;
+  padding: 10px 20px 10px 20px;
+}
+.three-boxes {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+.box {
+  padding: 20px 30px 20px 30px;
+}
+.title {
+  font-family: 'KumbhSansBold';
+  font-size: 20px;
+  color: #333950;
+}
+.price {
+  font-family: 'KumbhSansBold';
+  font-size: 56px;
+  color: #333950;
+}
+.users {
+  font-family: 'KumbhSansRegular';
+  font-size: 16px;
+  color: #333950;
+}
+.discription {
+  font-family: 'KumbhSansRegular';
+  font-size: 16px;
+  color: #747b95;
+}
+.storage {
+  font-family: 'KumbhSansRegular';
+  font-size: 16px;
+  color: #747b95;
+}
+.security {
+  font-family: 'KumbhSansRegular';
+  font-size: 16px;
+  color: #747b95;
+}
+.btn-try {
+  border-radius: 50px;
+  font-size: 16px;
+  font-family: 'KumbhSansBold';
+  color: #5175ff;
+  background-color: #e4eaff;
+  padding: 10px 20px 10px 20px;
+}
+.three-boxes .box:hover {
+  background-color: #5175ff;
+  color: #ffffff;
+}
+.three-boxes .box .btn-try:hover {
+  background-color: #ffffff;
+}
+.coming-text {
+  font-size: 16px;
+  font-family: 'KumbhSansBold';
+  color: black;
+}
+.four-boxes {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.boxs {
+  background-color: #333950;
+  width: 100px;
+  padding: 20px 100px 20px 26px;
+  border-radius: 18px;
+}
+.date-text {
+  font-size: 16px;
+  font-family: 'KumbhSansBold';
+  color: #5175ff;
+}
+.number {
+  font-size: 56px;
+  font-family: 'KumbhSansBold';
+  color: #ffffff;
+}
+.calender {
+  font-size: 16px;
+  font-family: 'KumbhSansBold';
+  color: #ffffff;
+}
+/* .container {
+  margin: 100vw;
+  padding: 100vh;
+} */
